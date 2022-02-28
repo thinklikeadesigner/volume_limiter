@@ -4,21 +4,10 @@ The files in this repo are compiled to binary and you need to use ***Script Edit
 
 I have the raw javascript at the bottom of this readme
 
-Edited script from Lucas Andión 
+Edited script from [Lucas Andión ](https://medium.com/@andion) and [Ranhiru Jude Cooray](https://medium.com/@ranhiru)
 
-https://medium.com/@andion
+Used Ranhiro's [blog post](https://medium.com/@ranhiru/limiting-your-macs-headphone-volume-13671b64e569) for the headphone specific code [Andión's](https://medium.com/trabe/limiting-your-macs-volume-in-2019-f314e20408ab) for the base code
 
-And Ranhiru Jude Cooray 
-
-https://medium.com/@ranhiru
-
-Used blog post for the headphone specific code
-
-https://medium.com/@ranhiru/limiting-your-macs-headphone-volume-13671b64e569
-
-And for the base code
-
-https://medium.com/trabe/limiting-your-macs-volume-in-2019-f314e20408ab
 
 You need to install switchaudio first, I use home-brew.
 
