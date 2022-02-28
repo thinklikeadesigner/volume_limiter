@@ -9,7 +9,7 @@ Edited script from [Lucas Andión ](https://medium.com/@andion) and [Ranhiru Ju
 Used Ranhiro's [blog post](https://medium.com/@ranhiru/limiting-your-macs-headphone-volume-13671b64e569) for the headphone specific code [Andión's](https://medium.com/trabe/limiting-your-macs-volume-in-2019-f314e20408ab) for the base code
 
 
-You need to install switchaudio first, I use home-brew.
+You need to install [switchaudio](https://formulae.brew.sh/formula/switchaudio-osx) first, I use home-brew.
 
 ```bash
 > brew install switchaudio-osx
