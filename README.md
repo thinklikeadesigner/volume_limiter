@@ -18,29 +18,22 @@ https://medium.com/trabe/limiting-your-macs-volume-in-2019-f314e20408ab
 
 You need to install switchaudio first, I use home-brew.
 
-brew install switchaudio-osx
+```bash
+> brew install switchaudio-osx
+```
 
-doShellScript in
+```this.app.doShellScript``` in ```get audioSource()``` runs a shell script to switch the audio source using your path to the package, and your chosen audio source.
 
-get audioSource() this.app.doShellScript
+The default path is ```pathToSwitchAudioSource = "opt/homebrew/cellar/switchaudio-osx/1.1.0/SwitchAudioSource"``` since I used brew install to install the package
 
-runs a shell script to switch the audio source, using your path to the package, and your chosen audio source.
+And the default audio source ```yourAudioSource = "External Headphones"```
 
-The default path is
+If you want to see your available options just run the following command in your terminal
 
-pathToSwitchAudioSource = "opt/homebrew/cellar/switchaudio-osx/1.1.0/SwitchAudioSource"
+```bash
+> switchaudiosource -a
+```
 
-since I used brew install to install the package
-
-And the default audio source
-
-yourAudioSource = "External Headphones"
-
-If you want to see your available options just run
-
- > switchaudiosource -a
-
-in your terminal
 
 Last steps:
 
